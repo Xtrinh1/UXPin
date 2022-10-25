@@ -1,0 +1,1 @@
+;(function(global) { global.DATA = {"page":[],"token":"1659464441.4285-1280746","last_update":"1659464449","component_version":null,"is_component":"0","is_composition":"0","components_master_ids":{"157681362":"103420242","146393600":"105241656","146393601":"106793649","159322174":"156912091"},"code_sync":{"bundles":[],"components":[],"presets":[]}}; })(window);

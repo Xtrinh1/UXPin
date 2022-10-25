@@ -1,0 +1,35 @@
+@font-face {
+  font-family: G-Roboto-n7;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmWUlvAx05IsDqlA.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n5;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmEU9vAx05IsDqlA.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n3;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmSU5vAx05IsDqlA.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n4;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n1;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOkCnqEu92Fr1MmgWxPKTM1K9nz.ttf');
+}
+@font-face {
+  font-family: G-Arimo-n4;
+  font-display: swap;
+  src: url('../data/fonts/arimo_v27_P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n9;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmYUtvAx05IsDqlA.ttf');
+}
