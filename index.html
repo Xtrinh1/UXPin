@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    
+      <title>UI Components - UXPin Preview</title>
+    
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="robots" content="noindex">
+
+    <link rel="apple-touch-icon" href="data/preview.uxpincdn.com_img_ios-logo-180x180-4f260175.png">
+    <link rel="icon" type="image/png" href="data/preview.uxpincdn.com_img_favicon-2d194bee.ico">
+    <link rel="icon" sizes="180x180" href="data/preview.uxpincdn.com_img_ios-logo-180x180-4f260175.png">
+    <link rel="shortcut icon" href="data/preview.uxpincdn.com_img_favicon-2d194bee.ico">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    
+
+    <link rel="stylesheet" href="data/preview.uxpincdn.com_styles_preview-3c9d3271.css">
+    
+
+    
+    <!-- auto-generated on export -->
+    <link rel="stylesheet" href="data/fonts.css">
+
+    
+
+    
+</head>
+
+
+<body ng-controller="HomeController"
+      class="loading" ng-class="{
+        'loading' : isLoading,
+        'left-panel-active' : isPanelVisible(PREVIEW_PANELS.SITEMAP),
+        'sitemap-visible' : isPanelVisible(PREVIEW_PANELS.SITEMAP),
+        
+        'documentation-visible right-panel-wide': isModeActive(PREVIEW_MODES.DOCUMENTATION),
+        'feature-documentation': canShowDocumentationMode,
+        'right-panel-active': rightPanelVisible || isModeActive(PREVIEW_MODES.SPEC) || isModeActive(PREVIEW_MODES.DOCUMENTATION),
+        
+      }"
+      ng-keydown="keyDown($event)">
+    
+    <div ui-view="topBar"></div>
+
+    <div ui-view></div>
+    <div ui-view="sitemap"></div>
+    <div ui-view="documentation"></div>
+    <div ui-view="canvas"></div>
+    <div ui-view="overlay"></div>
+    <div class="loader"></div>
+
+
+    <script type="text/javascript">
+    window.ApplicationConfiguration = {
+            awsLambdaExternalRequestUrl: 'https://qfgh9ucvol.execute-api.us-west-1.amazonaws.com/production/external_request',
+            project:{"id_project":8992856,"custom_font_css_url":"https://api.uxpin.com/fonts/custom/css/file?id=912828","created_at":"2022-01-18T21:51:09Z","custom_fonts_url":"https://api.uxpin.com/fonts/custom/css/?id=912828","features":{"anti_flicker_snippet":false,"live_share":true,"user_testing":false,"password":false,"team_comments":true,"spec_mode":true,"spec_mode_no_login":true,"spec_mode_styleguide":true,"comments_assignment":true,"design_views":false,"docs":true,"merge":true},"hash":"a59486ee8f263fbd82a2915a3cc5c42167776664","id_account":912828,"is_account_active":true,"is_account_parked":false,"is_account_free":false,"is_merge_component_used":false,"id_collection":2490949,"collection_type":"","collection_status":0,"id_original_project":null,"iteration_name":"","iteration_number":null,"name":"UI Components","settings":{"gridRecent":[{"layout":{"color":"rgba(255, 0, 109, 0.075)","columnWidth":null,"columns":12,"gutter":15,"margin":15,"type":"layout","visible":true},"baseline":{"color":"rgba(255, 0, 109, 0.075)","gutter":10,"margin":128,"rowHeight":1,"rows":null,"type":"baseline","visible":true}}]},"type":"W","updated_at":"2022-10-24T14:56:04+01:00","variables":{}},
+            userData:{"is_trial":false,"is_anonymous":true,"is_owner":false},
+            mode: 'export',
+            menuEnabled:true,
+            modeMenuEnabled:true,
+        };
+         window._rollbarConfig = {};
+         window._rollbarInitialized = true;
+    </script>
+
+    
+        <script type="text/javascript" src="data/preview.uxpincdn.com_scripts_engine-1b840d04.js"></script>
+        <script type="text/javascript" src="data/preview.uxpincdn.com_scripts_vendors-e0594415.js"></script>
+        <script type="text/javascript" src="data/preview.uxpincdn.com_scripts_app-25ec0186.js"></script>
+        
+    
+
+</body>
+
+
+</html>
